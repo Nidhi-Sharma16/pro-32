@@ -13,7 +13,7 @@ var bg1 = "sunset.png"
 
 function preload() {
     getBackgroundImg();
-    getTime();
+    
 }
 
 function setup(){
@@ -58,7 +58,7 @@ async function getBackgroundImg(){
     
    
     // slice the datetime to extract hour
-    hour = datetime.slice(11,13)
+     hour = datetime.slice(11,13)
 
     
     if(hour>=0 && hour<18 ){
